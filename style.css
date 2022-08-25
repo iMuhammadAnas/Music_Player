@@ -247,7 +247,6 @@ i.fa-step-backward {
 
 @media only screen and (max-width: 500px) {
     .player {
-        border: 1px solid red;
         display: flex;
         justify-content: center;
         align-items: center;
