@@ -191,8 +191,8 @@ i.fa-step-backward {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 .link {
@@ -251,11 +251,22 @@ i.fa-step-backward {
         justify-content: center;
         align-items: center;
         padding: 20px;
-        height: 100vh;
+        min-height: 150vh;
         width: 100%;
     }
+
     .wrapper {
         width: 100%;
         padding: 20px;
+    }
+
+    .repeat-track,
+    .random-track,
+    .playpause-track,
+    .prev-track,
+    .next-track {
+        padding: 15px;
+        opacity: 0.8;
+        transition: opacity .2s;
     }
 }
